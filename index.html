@@ -3,11 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FlixHutHD - Movie download</title>
-  <link rel="icon" type="image/png" href="FlixHutHd.png" />
-  <!-- Font Awesome for icons -->
+  <title>FlixHutHD - Standard Dark Theme</title>
+<link rel="icon" type="image/png" href="flixhuthd.png" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
   <style>
     :root {
@@ -22,8 +20,8 @@
       --card-shadow: rgba(0, 0, 0, 0.2);
       --button-hover-primary: #2980B9;
       --download-link-color: #00A9FF;
-      --download-section-title-color: #FF484F; 
-      --base-font-size: 16px; 
+      --download-section-title-color: #FF484F;
+      --base-font-size: 16px;
     }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
@@ -122,48 +120,48 @@
     a.custom-button-4khdhub {
         color: var(--bg-primary) !important;
         background: var(--accent-secondary);
-        padding: 6px 10px; 
+        padding: 6px 10px;
         border-radius: 4px;
         font-weight: 600;
         display: inline-flex;
-        align-items: center; 
+        align-items: center;
         gap: 4px;
-        font-size: 0.85em; 
-        margin-right: 10px; 
+        font-size: 0.85em;
+        margin-right: 10px;
         white-space: nowrap;
         box-shadow: 0 1px 3px rgba(0,0,0,0.1);
         transition: background-color 0.2s ease, transform 0.2s ease;
-        height: 36px; 
-        line-height: normal; 
+        height: 36px;
+        line-height: normal;
     }
     a.custom-button-4khdhub:hover { background-color: #d48c0f; transform: translateY(-1px); }
     a.custom-button-4khdhub i { margin-right: 3px; }
 
     .inline-mobile-search-form {
-        display: none; 
+        display: none;
         align-items: center;
-        margin-left: 15px; 
+        margin-left: 15px;
     }
     .inline-mobile-search-form input[type="search"] {
-        padding: 0 12px; 
+        padding: 0 12px;
         border: 1px solid var(--border-color);
         background-color: var(--bg-tertiary);
         color: var(--text-primary);
         border-radius: 15px 0 0 15px;
-        font-size: 0.85em; 
-        width: 140px; 
-        height: 36px; 
-        line-height: 36px; 
+        font-size: 0.85em;
+        width: 140px;
+        height: 36px;
+        line-height: 36px;
     }
     .inline-mobile-search-form button {
-        padding: 0 12px; 
+        padding: 0 12px;
         height: 36px;
         background: var(--accent-primary);
         color: #fff;
         border: none;
         border-radius: 0 15px 15px 0;
         cursor: pointer;
-        font-size: 0.9em; 
+        font-size: 0.9em;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -183,7 +181,7 @@
     ul.category-links li .dropdown-menu li a { padding: 7px 10px; font-size: 0.8em; color: var(--text-secondary); }
     ul.category-links li .dropdown-menu li a:hover, ul.category-links li .dropdown-menu li a.active-category-link { background-color: var(--accent-primary); color: #fff; }
 
-    .search-container { display: flex; align-items: center; margin-left: auto; } 
+    .search-container { display: flex; align-items: center; margin-left: auto; }
     .search-container form { display: flex; }
     .search-container input[type="search"] { padding: 6px 9px; border: 1px solid var(--border-color); background-color: var(--bg-primary); color: var(--text-primary); border-radius: 15px 0 0 15px; font-size: 0.8em; width: 160px; transition: border-color 0.2s ease; }
     .search-container input[type="search"]:focus { outline: none; border-color: var(--accent-primary); }
@@ -328,10 +326,10 @@
         margin-bottom: 5px;
         text-align: left;
     }
-    .modal-download-section .download-section-subtitle { 
+    .modal-download-section .download-section-subtitle {
         font-size: 1em;
         font-weight: bold;
-        color: var(--download-section-title-color); 
+        color: var(--download-section-title-color);
         margin-bottom: 15px;
     }
     .download-links-container {
@@ -359,14 +357,14 @@
     .download-link-item i { margin-right: 8px; }
 
 
-    @media (max-width: 1024px) { 
+    @media (max-width: 1024px) {
         nav.category-navbar .category-toggle { display: block; }
         nav.category-navbar .left-group { overflow: visible; }
         .inline-mobile-search-form { display: flex; }
-        nav.category-navbar .search-container { display: none; } 
+        nav.category-navbar .search-container { display: none; }
         #categoryLinks #mobile-search-item { display: none !important; }
 
-        ul.category-links { 
+        ul.category-links {
             display: none; flex-direction: column; position: fixed;
             top: 0; left: -100%; width: 80%; max-width: 280px; height: 100vh;
             background-color: var(--bg-secondary);
@@ -387,30 +385,30 @@
         ul.category-links li .dropdown-menu li a { font-size: 0.9em; color: var(--text-secondary); }
 
         a.custom-button-4khdhub {
-            font-size: 0.8em; 
-            padding: 0 10px; 
-            height: 36px; 
-            margin-right: 8px; 
+            font-size: 0.8em;
+            padding: 0 10px;
+            height: 36px;
+            margin-right: 8px;
         }
         .inline-mobile-search-form {
-            margin-left: 12px; 
+            margin-left: 12px;
         }
         .inline-mobile-search-form input[type="search"] {
-            width: 120px; 
-            font-size: 0.8em; 
+            width: 120px;
+            font-size: 0.8em;
             height: 36px;
             padding: 0 10px;
         }
         .inline-mobile-search-form button {
             height: 36px;
-            font-size: 0.85em; 
+            font-size: 0.85em;
             padding: 0 10px;
         }
     }
 
-    @media (max-width: 767px) { 
+    @media (max-width: 767px) {
         ul.recent-movies-grid {
-            grid-template-columns: repeat(2, 1fr); 
+            grid-template-columns: repeat(2, 1fr);
             gap: 0.8rem;
         }
         li.movie-card-item figure img { height: auto; aspect-ratio: 2/3; }
@@ -424,16 +422,16 @@
         .modal-movie-info p { text-align: left; }
 
         a.custom-button-4khdhub {
-            font-size: 0.8em; 
-            padding: 0 10px; 
+            font-size: 0.8em;
+            padding: 0 10px;
             height: 36px;
-            margin-right: 8px; 
+            margin-right: 8px;
         }
         .inline-mobile-search-form {
-            margin-left: 12px; 
+            margin-left: 12px;
         }
         .inline-mobile-search-form input[type="search"] {
-            width: 110px; 
+            width: 110px;
             font-size: 0.8em;
             height: 36px;
             padding: 0 10px;
@@ -460,8 +458,7 @@
     </nav>
     <div class="carousel-slider-container" id="carouselImageSlider">
         <div class="carousel-slider-wrapper">
-            <!-- Slides JavaScript diye inject hobe -->
-        </div>
+            </div>
     </div>
 
     <nav class="category-navbar">
@@ -478,7 +475,7 @@
             <button type="submit"><i class="fas fa-search"></i></button>
           </form>
           <ul class="category-links" id="categoryLinks">
-            <li id="mobile-search-item" style="display: none;"> 
+            <li id="mobile-search-item" style="display: none;">
                 <form method="get" id="mobileSearchFormInMenu" action="#">
                     <input type="search" name="s" placeholder="Search here..." autocomplete="off">
                 </form>
@@ -506,7 +503,7 @@
             <li><a href="#" data-category="Other">Other</a></li>
           </ul>
         </div>
-        <div class="search-container" id="desktopSearchContainer"> 
+        <div class="search-container" id="desktopSearchContainer">
           <form method="get" action="#" id="desktopSearchForm">
             <input type="search" name="s" id="desktopSearchInput" class="form-control" placeholder="Search movies..." autocomplete="off">
             <button type="submit"><i class="fas fa-search"></i></button>
@@ -528,13 +525,11 @@
         <span>All Movies</span>
       </h2>
       <ul class="recent-movies-grid" id="movies-grid">
-        <!-- Movies JavaScript diye load hobe -->
-      </ul>
+        </ul>
       <div class="clearfix" style="clear:both;"></div>
 
       <div class="pagination-wrapper" id="paginationControls">
-        <!-- Pagination button ekhane generate hobe -->
-      </div>
+        </div>
     </section>
   </div>
 
@@ -553,7 +548,6 @@
     </div>
   </footer>
 
-  <!-- Movie Detail Modal -->
   <div id="movieDetailModal" class="movie-modal">
     <div class="movie-modal-content">
       <span class="modal-close-button">&times;</span>
@@ -577,14 +571,12 @@
       <div class="modal-screenshots">
         <h4>Screenshots:</h4>
         <div class="screenshots-gallery" id="modalScreenshotsGallery">
-          <!-- Screenshots ekhane populate hobe -->
-        </div>
+          </div>
       </div>
       <div class="modal-download-section">
         <h3 class="download-section-main-title" id="modalDownloadMainTitle">Download Movie Title Full Movie in Hindi | HD</h3>
         <h4 class="download-section-subtitle">: DOWNLOAD MOVIE  :</h4>
         <div class="download-links-container" id="modalDownloadLinksContainer">
-            <!-- Static Download Buttons. JavaScript will handle their visibility and href -->
             <a href="#" id="download480pButton" class="download-link-item" target="_blank"><i class="fas fa-download"></i> DOWNLOAD 480P</a>
             <a href="#" id="download720pButton" class="download-link-item" target="_blank"><i class="fas fa-download"></i> DOWNLOAD 720P</a>
             <a href="#" id="download1080pButton" class="download-link-item" target="_blank"><i class="fas fa-download"></i> DOWNLOAD 1080P</a>
@@ -628,7 +620,7 @@
     const modalDescription = document.getElementById("modalDescription");
     const modalScreenshotsGallery = document.getElementById("modalScreenshotsGallery");
     const modalDownloadMainTitle = document.getElementById("modalDownloadMainTitle");
-    
+
     // Static Download Buttons from HTML
     const download480pButton = document.getElementById('download480pButton');
     const download720pButton = document.getElementById('download720pButton');
@@ -641,7 +633,7 @@
     // Global variables
     let sliderImages = [];
     let scrollAmount = 0;
-    const slideItemWidth = 150 + 16; 
+    const slideItemWidth = 150 + 16;
     let animationFrameId;
     let allMoviesData = [];
     let currentFilteredMovies = [];
@@ -665,9 +657,9 @@
                                         </div>`;
             return;
         }
-        sliderWrapper.innerHTML = ''; 
-        let imagesToDisplayInSlider = sliderImages.slice(0, 14); 
-         if (imagesToDisplayInSlider.length === 0) { 
+        sliderWrapper.innerHTML = '';
+        let imagesToDisplayInSlider = sliderImages.slice(0, 14);
+         if (imagesToDisplayInSlider.length === 0) {
             sliderWrapper.innerHTML = `<div class="carousel-slide-item" style="width:100%; height:100%; margin:0; display:flex; align-items:center; justify-content:center; background-color: var(--bg-tertiary);">
                                            <span style="color: var(--text-secondary);">No featured movies.</span>
                                        </div>`;
@@ -701,18 +693,18 @@
 
     // Function for continuous scrolling animation
     function continuousScroll() {
-        if (!sliderWrapper || sliderImages.length === 0) return; 
-        scrollAmount += 0.5; 
+        if (!sliderWrapper || sliderImages.length === 0) return;
+        scrollAmount += 0.5;
         sliderWrapper.style.transform = `translateX(-${scrollAmount}px)`;
-        
-        const originalSlidesForLoop = sliderImages.slice(0, 14); 
-        if (originalSlidesForLoop.length === 0) return; 
+
+        const originalSlidesForLoop = sliderImages.slice(0, 14);
+        if (originalSlidesForLoop.length === 0) return;
 
         const totalWidthOriginalSlides = originalSlidesForLoop.length * slideItemWidth;
 
         if (scrollAmount >= totalWidthOriginalSlides) {
-            scrollAmount = 0; 
-            sliderWrapper.style.transform = 'translateX(0px)'; 
+            scrollAmount = 0;
+            sliderWrapper.style.transform = 'translateX(0px)';
         }
         animationFrameId = requestAnimationFrame(continuousScroll);
     }
@@ -720,36 +712,45 @@
     // Function to start or restart the continuous slide
     function startContinuousSlide() {
         if (sliderImages.length === 0 || !sliderWrapper) return;
-        cancelAnimationFrame(animationFrameId); 
-        scrollAmount = 0; 
-        sliderWrapper.style.transform = 'translateX(0px)'; 
-        animationFrameId = requestAnimationFrame(continuousScroll); 
+        cancelAnimationFrame(animationFrameId);
+        scrollAmount = 0;
+        sliderWrapper.style.transform = 'translateX(0px)';
+        animationFrameId = requestAnimationFrame(continuousScroll);
     }
-    
+
     // Function to open and populate the movie detail modal
     function openMovieModal(movieId) {
         const movie = allMoviesData.find(m => m.id === movieId);
         if (!movie || !movie.data) { console.error("Movie data not found for ID:", movieId); return; }
-        const data = movie.data; 
+        const data = movie.data;
 
         modalPoster.src = data.poster || 'https://placehold.co/180x270/1E1E1E/E0E0E0?text=No+Poster';
         modalPoster.alt = `${data.name || "Movie"} Poster`;
         modalTitle.textContent = data.name || "Title Not Available";
         modalCategory.textContent = data.category || "N/A";
         modalImdbRating.textContent = data.imdbRating || "N/A";
-        modalStars.textContent = data.stars || "N/A";
+        
+        // --- এই অংশটি পরিবর্তন করা হয়েছে ---
+        let starsDisplay = "N/A";
+        const numStars = parseInt(data.stars, 10); // ফায়ারবেস থেকে আসা সংখ্যাটিকে ইন্টিজারে রূপান্তর করুন
+        if (!isNaN(numStars) && numStars > 0) {
+            starsDisplay = '⭐'.repeat(numStars); // স্টার ইমোজি তৈরি করুন
+        }
+        modalStars.textContent = starsDisplay;
+        // --- পরিবর্তন শেষ ---
+
         modalDirector.textContent = data.director || "N/A";
         modalDescription.textContent = data.description || "No description available.";
-        
+
         modalDownloadMainTitle.textContent = `Download ${data.name || 'Movie'}`;
-        
+
         // Hide all static buttons and the "no links" message initially
         if(download480pButton) download480pButton.style.display = 'none';
         if(download720pButton) download720pButton.style.display = 'none';
         if(download1080pButton) download1080pButton.style.display = 'none';
         if(download4kButton) download4kButton.style.display = 'none';
         if(noDownloadLinksMessage) noDownloadLinksMessage.style.display = 'none';
-        
+
         let linksWereActuallySet = false;
 
         // Map of quality info to corresponding button elements
@@ -763,9 +764,9 @@
 
         if (data.downloadLinks && typeof data.downloadLinks === 'object') {
             qualityButtonMap.forEach(qMap => {
-                if (!qMap.button) { 
+                if (!qMap.button) {
                      console.warn(`Button for quality (regex: ${qMap.regex}) not found in HTML for movie: ${data.name}`);
-                     return; 
+                     return;
                 }
 
                 let linkUrl = null;
@@ -774,7 +775,7 @@
                         const lowerKey = keyInFirebase.toLowerCase();
                         if (qMap.regex.test(lowerKey) || (qMap.alt && qMap.alt.some(altKey => lowerKey.includes(altKey.toLowerCase())))) {
                             linkUrl = data.downloadLinks[keyInFirebase];
-                            break; 
+                            break;
                         }
                     }
                 }
@@ -787,10 +788,10 @@
                 }
             });
         }
-        
+
         // Fallback for data.url for 1080p button IF no specific quality links were found AND data.url exists
         if (!linksWereActuallySet && data.url) {
-            if (download1080pButton) { 
+            if (download1080pButton) {
                 download1080pButton.href = data.url;
                 download1080pButton.style.display = 'block';
                 linksWereActuallySet = true;
@@ -803,7 +804,7 @@
         }
 
         // Populate screenshots
-        modalScreenshotsGallery.innerHTML = ''; 
+        modalScreenshotsGallery.innerHTML = '';
         let screenshotUrls = [];
         if (Array.isArray(data.screenshots)) {
             screenshotUrls = data.screenshots.filter(url => url && url.trim() !== "");
@@ -816,7 +817,7 @@
                 const img = document.createElement('img');
                 img.src = ssUrl;
                 img.alt = "Screenshot";
-                img.onerror = function() { this.src='https://placehold.co/120x70/282828/BDBDBD?text=No+SS'; }; 
+                img.onerror = function() { this.src='https://placehold.co/120x70/282828/BDBDBD?text=No+SS'; };
                 modalScreenshotsGallery.appendChild(img);
             });
         } else {
@@ -824,7 +825,7 @@
         }
 
         modal.style.display = "block";
-        document.body.classList.add("modal-open"); 
+        document.body.classList.add("modal-open");
     }
 
 
@@ -861,7 +862,7 @@
             const bgColorPlaceholder = getComputedStyle(document.documentElement).getPropertyValue('--bg-tertiary').trim().substring(1) || '282828';
             const textColorPlaceholder = getComputedStyle(document.documentElement).getPropertyValue('--accent-primary').trim().substring(1) || '3498DB';
             const posterUrl = data.poster || `https://placehold.co/340x510/${bgColorPlaceholder}/${textColorPlaceholder}?text=${encodeURIComponent(data.name || "No Name")}`;
-            
+
             movieEl.innerHTML = `
                 <figure>
                   <img src="${posterUrl}" alt="${data.name || "Movie"} Poster" onerror="this.onerror=null; this.src='https://placehold.co/340x510/${bgColorPlaceholder}/BDBDBD?text=Image+Not+Found';">
@@ -897,8 +898,8 @@
         // Page number buttons (with ellipsis logic)
         let startPage = Math.max(1, page - 2);
         let endPage = Math.min(pageCount, page + 2);
-        if (page <= 3) endPage = Math.min(pageCount, 5); 
-        if (page > pageCount - 3) startPage = Math.max(1, pageCount - 4); 
+        if (page <= 3) endPage = Math.min(pageCount, 5);
+        if (page > pageCount - 3) startPage = Math.max(1, pageCount - 4);
 
         if (startPage > 1) {
             const firstPageButton = document.createElement('button');
@@ -949,7 +950,7 @@
 
         paginationControls.appendChild(ul);
     }
-    
+
     // Function to filter movies by category and display them
     function filterAndDisplayMovies(category) {
         // Update active link in category navigation
@@ -959,7 +960,7 @@
         });
         // Update the section title
         if (currentCategoryTitleEl) { currentCategoryTitleEl.textContent = category === "All" ? "All Movies" : category; }
-        
+
         // Clear search inputs
         const desktopSearchInput = document.getElementById('desktopSearchInput');
         if(desktopSearchInput) { desktopSearchInput.value = ''; }
@@ -981,7 +982,7 @@
         const querySnapshot = await getDocs(collection(db, "movies"));
         allMoviesData = []; // Reset movie data
         querySnapshot.forEach((doc) => { allMoviesData.push({ id: doc.id, data: doc.data() }); });
-        
+
         // Prepare images for the slider (posters of first few movies)
         sliderImages = allMoviesData
             .map(movie => movie.data.poster)
@@ -1089,7 +1090,7 @@
             }
             document.body.classList.remove("category-menu-open");
             if(desktopSearch) desktopSearch.style.display = 'flex'; // Show desktop search
-        } else { 
+        } else {
              // If switching to mobile
              if (categoryLinksUl && !categoryLinksUl.classList.contains('active')) {
                 // If mobile menu is not active, ensure dropdowns are not showing as block
@@ -1131,11 +1132,11 @@
 
     // Search functionality
     const desktopSearchForm = document.getElementById('desktopSearchForm');
-    const inlineMobileSearchForm = document.getElementById('inlineMobileSearchForm'); 
+    const inlineMobileSearchForm = document.getElementById('inlineMobileSearchForm');
 
     function handleSearch(event) {
         event.preventDefault();
-        const searchInput = event.currentTarget.querySelector('input[name="s"]'); 
+        const searchInput = event.currentTarget.querySelector('input[name="s"]');
         const searchTerm = searchInput.value.toLowerCase().trim();
 
         // Update category title to reflect search
@@ -1152,15 +1153,15 @@
         if (!searchTerm) { currentFilteredMovies = [...allMoviesData]; } // If search is empty, show all
         else { currentFilteredMovies = allMoviesData.filter(movie => movie.data.name && movie.data.name.toLowerCase().includes(searchTerm));}
         renderMovies(1); // Render first page of search results
-        
+
         // Close mobile menu if it was open during search
-        if (categoryLinksUl.classList.contains("active")) { 
+        if (categoryLinksUl.classList.contains("active")) {
              categoryLinksUl.classList.remove("active");
              document.body.classList.remove("category-menu-open");
         }
     }
     if(desktopSearchForm) desktopSearchForm.addEventListener('submit', handleSearch);
-    if(inlineMobileSearchForm) inlineMobileSearchForm.addEventListener('submit', handleSearch); 
+    if(inlineMobileSearchForm) inlineMobileSearchForm.addEventListener('submit', handleSearch);
 
     // Initial setup calls
     setCurrentFooterYear();
